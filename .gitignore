@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.env
+.env.*
+*.sqlite3
+*.log
+*.db
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Rapp.history
+
+# PostgreSQL volumes
+pgdata/
+*.sql~
+
+# Airflow
+airflow.db
+*.pid
+*.err
+*.out
+*.bak
+logs/
+dags/__pycache__/
+dags/*.pyc
+dags/*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+*.pid
+**/.docker
+docker-compose.override.yml
+*.bak
+
+# Output
+*.csv
+*.json
+*.parquet
+*.gz
+*.zip
+*.tar
+*.png
+*.pdf
+output/
+results/
+data/
+
+# Misc
+*.swp
+*.tmp
