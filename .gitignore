@@ -63,7 +63,6 @@ docker-compose.override.yml
 *.gz
 *.zip
 *.tar
-*.png
 *.pdf
 output/
 results/
